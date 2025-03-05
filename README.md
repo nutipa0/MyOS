@@ -4,7 +4,7 @@ This is a simple OS that prints Hello World on screen. Currenty I am learning ho
 
 To run in QEMU, you must enter this commands:
 
-'''bash
+```bash
 make
 qemu-system-x86_64 -kernel kernel.bin
-'''
+```
