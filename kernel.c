@@ -107,10 +107,10 @@ static inline unsigned char inb(unsigned short port)
   return result;
 }
 
-void register_interrupt_handler(int irq, void (*handler)(void))
-{
-  interrupt_table[irq] = handler;
-}
+// void register_interrupt_handler(int irq, void (*handler)(void))
+// {
+//   interrupt_table[irq] = handler;
+// }
 
 void keyboard_interrupt_handler(void)
 {
